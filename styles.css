@@ -37,7 +37,6 @@ html {
 }
 
 
-
 .try-free > button {
   background: #82589F;
   border: none;
@@ -111,7 +110,7 @@ input[type="submit"] {
   .learn {
     font-size: 50px;
     line-height: 3.5rem;
-    padding-left: 10%;
+    padding-left: 6%;
     padding-right: 10%;
   }
 
@@ -125,7 +124,32 @@ input[type="submit"] {
     padding-right: 10%;
   }
 
+
   .section-2 {
-    width: 50%;
+    margin-top: 5%;
+    width: 40%;
   }
+
+  .try-free > button {
+    height: 4rem;
+    padding: 0;
+  }
+
+.try-free > button br {
+  display: none;
+  }
+
+  .form-container {
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  input {
+    width: 85%;
+  }
+
+  .terms br {
+    display: none;
+  }
+
 }
