@@ -60,6 +60,7 @@ html {
   padding-top: 1.5rem;
   border-radius: 10px;
   margin-bottom: 5rem;
+  border-bottom: hsl(0, 0%, 0%, .4 ) solid .3rem;
 }
 
 input {
@@ -91,4 +92,40 @@ input[type="submit"] {
   color: hsl(0, 0%, 50%, .6);
   font-size: 10px;
   padding-bottom: 2rem;
+}
+
+.terms-and-service {
+  color: hsl(0, 100%, 74%);
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+  }
+
+  .section-1 {
+    margin-top: 12rem;
+    width: 50%;
+  }
+
+  .learn {
+    font-size: 50px;
+    line-height: 3.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .experienced br {
+    display: none;
+  }
+
+  .experienced {
+    text-align: left;
+    padding-left: 19%;
+    padding-right: 10%;
+  }
+
+  .section-2 {
+    width: 50%;
+  }
 }
