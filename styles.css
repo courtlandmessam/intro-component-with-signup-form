@@ -42,7 +42,7 @@ html {
   border: none;
   padding: 1.5rem 5.5rem 1.5rem 5.5rem;
   border-radius: 5px;
-  border-bottom: hsl(0, 0%, 50%, .9 ) solid .5rem;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
   color: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -59,7 +59,7 @@ html {
   padding-top: 1.5rem;
   border-radius: 10px;
   margin-bottom: 5rem;
-  border-bottom: hsl(0, 0%, 0%, .4 ) solid .3rem;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 input {
@@ -82,7 +82,7 @@ input[type="submit"] {
   color: white;
   padding: 1.25rem .5rem 1.25rem .5rem;
   width: 84%;
-  border-bottom: hsl(0, 0%, 50%, .4 ) solid .3rem;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.1);
   font-weight: 500;
   letter-spacing: .1em;
 }
@@ -97,7 +97,7 @@ input[type="submit"] {
   color: hsl(0, 100%, 74%);
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   .container {
     display: flex;
   }
@@ -105,7 +105,7 @@ input[type="submit"] {
   .section-1 {
     margin-top: 15%;
     width: 50%;
-    padding-left: 20%;
+    padding-left: 15%;
   }
 
   .learn {
