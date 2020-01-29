@@ -64,10 +64,6 @@ html {
   box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-#error-message {
-  color: red;
-}
-
 input {
   width: 80%;
   border-top-style: hidden;
@@ -94,9 +90,18 @@ input[type="submit"] {
   letter-spacing: .1em;
 }
 
+.error {
+  border-color: hsl(0, 100%, 74%);
+}
+
 
 #lname-error, #fname-error, #eaddress-error, #pword-error  {
-  color: red;
+  color: hsl(0, 100%, 74%);
+  text-align: right;
+  margin: -2% 10% 3% 0;
+  font-style: italic;
+  font-size: 11px;
+
 }
 
 .terms {

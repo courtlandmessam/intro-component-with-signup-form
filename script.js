@@ -15,24 +15,41 @@ form.addEventListener('submit', (e) => {
   if (fname.value == "") {
     e.preventDefault();
     fnameError.innerHTML = "First name cant be empty";
+    $("#fname").addClass("error");
+  } else {
+    $("#fname").removeClass("error");
+    fnameError.innerHTML = null;
   }
 
   if (lname.value == "") {
     e.preventDefault();
     lnameError.innerHTML = "Last name cant be empty";
+    $("#lname").addClass("error");
+  } else {
+    $("#lname").removeClass("error");
+    lnameError.innerHTML = null;
   }
 
   if (email.value == "") {
     e.preventDefault();
     emailError.innerHTML = "Email cant be empty";
+    $("#eaddress").addClass("error");
   } else if (!validateEmail(email.value)) {
       e.preventDefault();
       emailError.innerHTML = "This is not a valid email";
+      $("#eaddress").addClass("error");
+    } else {
+      $("#eaddress").removeClass("error");
+      emailError.innerHTML = null;
     }
 
   if (pword.value == "") {
     e.preventDefault();
     pwordError.innerHTML = "Password cant be empty";
+    $("#pword").addClass("error");
+  } else {
+    $("#pword").removeClass("error");
+    pwordError.innerHTML = null;
   }
 
 
